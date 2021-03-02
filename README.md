@@ -1,14 +1,17 @@
 # AtCoder
 
+「Ctrl + N」 で新しいファイルを作成
+「Ctrl + @」 でコンソールを開く
+「F6」 でコンパイル & 実行
 
-## git 
+## git
+
 - 変更した場合
-> git add .   
-> git commit -m 'コミットメッセージ'
-> git push   
+  > git add .  
+  > git commit -m 'コミットメッセージ'
+  > git push
 
 これで、全部を指定してローカルリポジトリからリモートリポジトリへと移動する作業を行うことができる
 
 - 変更されたリモートリポジトリから、ローカルに落とす場合
-> git pull
-
+  > git pull
