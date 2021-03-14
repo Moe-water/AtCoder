@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
-  int count;
-  cin >> count;
+  int x,y;
+  cin >> x>>y;
+  cout << y / x << endl;
 }
