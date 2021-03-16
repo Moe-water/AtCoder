@@ -1,11 +1,18 @@
-# AtCoder
-
+## AtCoder
 「Ctrl + N」 で新しいファイルを作成
 「Ctrl + @」 でコンソールを開く
 「F6」 でコンパイル & 実行
 
-## git
+## c++の精度
+  int 型    -2.147483 10e-9    ~  2.147483 10e+9
+  float型   -1.175494 10e-8    ~  3.402823 10e+8
+  double型  -2.225074 10e-16   ~  1.797693 10e+16
+  long型    -2.147483 10e-9    ~  2.147483 10e+9
+  unsigned long long型    0    ~  1.844674 10e+19
 
+  cout << fixed(double型)変数 << setprecision(桁数);
+
+## git
 - 変更した場合
   > git add .  
   > git commit -m 'コミットメッセージ'
