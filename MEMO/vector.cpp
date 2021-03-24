@@ -11,7 +11,11 @@ int main() {
     cout << c[i] << " ";
   }
   cout << endl;
-  while (next_permutation(c.begin(), c.end())) {
+  do {
+    for (int i = 0; i < c.size(); i++) {
+      cout << c[i] << " ";
+    }
+  } while (next_permutation(c.begin(), c.end())) {
     for (int i = 0; i < c.size(); i++) {
       cout << c[i] << " ";
     }
@@ -19,7 +23,6 @@ int main() {
   }
 
   // 安定なソート
-  stable_sort(a.begin(), a.end()); // 昇順
-  stable_sort(a.rbegin(), a.rend()); // 降順
-
+  stable_sort(a.begin(), a.end());    // 昇順
+  stable_sort(a.rbegin(), a.rend());  // 降順
 }
