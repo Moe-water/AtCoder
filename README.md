@@ -11,7 +11,7 @@
 
 - 変更した場合
   > git add .  
-  > git commit -m 'コミットメッセージ'
+  > git commit -m '20XX/XX/XX XX:XX Note or Desktop'
   > git push
 
 これで、全部を指定してローカルリポジトリからリモートリポジトリへと移動する作業を行うことができる
